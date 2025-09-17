@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    // Diretórios
+    "forceConsistentCasingInFileNames": true,
+  
+    "rootDir": "./",              
+    "outDir": "./dist",           
+
+    // Ambiente
+    "target": "ES2020",           
+    "module": "CommonJS",         
+    "lib": ["ES2020"],            
+    "types": ["node"],            
+
+    // Saídas
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Verificações mais rígidas
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Estilo de código
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Outros
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
